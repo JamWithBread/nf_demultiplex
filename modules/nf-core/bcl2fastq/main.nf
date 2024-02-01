@@ -58,6 +58,7 @@ process BCL2FASTQ {
 
     bcl2fastq \\
         $args \\
+        --no-lane-splitting \\
         --output-dir . \\
         --runfolder-dir ${input_dir} \\
         --sample-sheet ${samplesheet} \\
